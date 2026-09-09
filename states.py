@@ -12,6 +12,11 @@ class CreateLobbyForm(StatesGroup):
     slots = State()
     description = State()
 
+class PlayerSearchForm(StatesGroup):
+    game = State()
+    hours = State()
+    prime_time = State()
+
 class AdminRoleForm(StatesGroup):
     target_user_id = State()
     new_role = State()
