@@ -1,0 +1,4 @@
+# Нужен Python 3.12 или 3.13. На 3.15 pip собирает pydantic-core/aiohttp из исходников и падает.
+aiogram==3.22.0
+aiosqlite==0.21.0
+python-dotenv==1.1.1
